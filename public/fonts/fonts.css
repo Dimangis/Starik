@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./Montserrat-Regular.woff2') format('woff2'),
+    url('./Montserrat-Regular.woff') format('woff'),
+    url('./Montserrat-Regular.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./Montserrat-Medium.woff2') format('woff2'),
+    url('./Montserrat-Medium.woff') format('woff'),
+    url('./Montserrat-Medium.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./Montserrat-SemiBold.woff2') format('woff2'),
+    url('./Montserrat-SemiBold.woff') format('woff'),
+    url('./Montserrat-SemiBold.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./Montserrat-Bold.woff2') format('woff2'),
+    url('./Montserrat-Bold.woff') format('woff'),
+    url('./Montserrat-Bold.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./Montserrat-ExtraBold.woff2') format('woff2'),
+    url('./Montserrat-ExtraBold.woff') format('woff'),
+    url('./Montserrat-ExtraBold.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* NotoSans */
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url('./NotoSans-Regular.woff2') format('woff2'),
+    url('./NotoSans-Regular.woff') format('woff'),
+    url('./NotoSans-Regular.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url('./NotoSans-Medium.woff2') format('woff2'),
+    url('./NotoSans-Medium.woff') format('woff'),
+    url('./NotoSans-Medium.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url('./NotoSans-SemiBold.woff2') format('woff2'),
+    url('./NotoSans-SemiBold.woff') format('woff'),
+    url('./NotoSans-SemiBold.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url('./NotoSans-Bold.woff2') format('woff2'),
+    url('./NotoSans-Bold.woff') format('woff'),
+    url('./NotoSans-Bold.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url('./NotoSans-ExtraBold.woff2') format('woff2'),
+    url('./NotoSans-ExtraBold.woff') format('woff'),
+    url('./NotoSans-ExtraBold.ttf') format('ttf');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.Regular {
+  font-weight: 400;
+}
+
+.Medium {
+  font-weight: 500;
+}
+
+.SemiBold {
+  font-weight: 600;
+}
+
+.Bold {
+  font-weight: 700;
+}
+
+.ExtraBold {
+  font-weight: 800;
+}
+
+.NotoSans {
+  font-family: "NotoSans";
+}
+
+.Montserrat {
+  font-family: "Montserrat";
+}

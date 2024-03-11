@@ -47,7 +47,14 @@ ul {
   margin: 0 auto;
 }
 
+h1 {
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+
 a {
+  font-family: "NotoSans";
+  font-weight: 400;
   text-decoration: none;
   color: black;
 }

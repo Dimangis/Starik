@@ -1,85 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="./src/css/global.css" />
-    <link rel="stylesheet" href="index.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header class="container">
-      <div class="header-top_container">
-        <div class="logo_container">
-          MoldLab
-          <img src="./public/img/logo.svg" alt="Logo" />
-        </div>
-        <nav>
-          <ul class="nav_container">
-            <li><a href="" class="nav_item">О компании</a></li>
-            <li><a href="" class="nav_item">Услуги</a></li>
-            <li><a href="" class="nav_item">Оборудование</a></li>
-            <li><a href="" class="nav_item">Галерея</a></li>
-            <li><a href="" class="nav_item">Новости</a></li>
-            <li><a href="" class="nav_item">Контакты</a></li>
-          </ul>
-        </nav>
-        <div class="contact_container">
-          <img src="./public/img/tg.svg" alt="Telegramm" />
-          <img src="./public/img/wa.svg" alt="WhatsApp" />
-          <div class="btn_call">
-            <a href="" class="btn_call__text">Заказать звонок</a>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="./src/css/global.css" />
+  <link rel="stylesheet" href="./public/fonts/fonts.css" />
+  <link rel="stylesheet" href="index.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="container headerh">
+    <div class="header-top_container">
+      <div class="logo_container">
+        MoldLab
+        <img src="./public/img/logo.svg" alt="Logo" />
+      </div>
+      <nav>
+        <ul class="nav_container">
+          <li><a href="" class="nav_item">О компании</a></li>
+          <li><a href="" class="nav_item">Услуги</a></li>
+          <li><a href="" class="nav_item">Оборудование</a></li>
+          <li><a href="" class="nav_item">Галерея</a></li>
+          <li><a href="" class="nav_item">Новости</a></li>
+          <li><a href="" class="nav_item">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="contact_container">
+        <img src="./public/img/tg.svg" alt="Telegramm" />
+        <img src="./public/img/wa.svg" alt="WhatsApp" />
+        <div class="btn">
+          <a href="">Заказать звонок</a>
         </div>
       </div>
-      <div class="header-bot_container">
-        <div>
-          <a href="tel:+">+7 987 113-04-2</a>
-          <a href="mailto:">sales@profnn.info</a>
-          <p class="work-time_container">Пн-Пт: 8:00-18:00 (МСК)</p>
-        </div>
+    </div>
+    <div class="header-bot_container">
+      <div>
+        <a href="tel:+">+7 987 113-04-2</a>
+        <a href="mailto:">sales@profnn.info</a>
+        <p class="work-time_container">Пн-Пт: 8:00-18:00 (МСК)</p>
       </div>
-    </header>
-    <section class="hero_container">
-      <div class="container">
-        <h1>Ремонт и модификация пресс-форм</h1>
-        <div>
-          <div class="hero-img_container">
-            <picture>
-              <!-- <source srcSet={avifPath2x} type="image/avif" media="(min-resolution: 2dppx)" />
+    </div>
+  </header>
+  <section class="hero_container">
+    <div class="container">
+      <h1 class="hero_title"><strong>Ремонт и модификация пресс-форм</strong></h1>
+      <div class="hero-img_wrapper">
+        <picture class="hero-img_container">
+          <!-- <source srcSet={avifPath2x} type="image/avif" media="(min-resolution: 2dppx)" />
             <source srcSet={avifPath1x} type="image/avif" />
             <source srcSet={webpPath2x} type="image/webp" media="(min-resolution: 2dppx)" />
             <source srcSet={webpPath1x} type="image/webp" />
             <source srcSet={pngPath2x} type="image/png" media="(min-resolution: 2dppx)" />
             <source srcSet={pngPath1x} type="image/png" />
             <source srcSet={jpgPath2x} type="image/jpg" media="(min-resolution: 2dppx)" /> -->
-              <img src="./public/img/hero01.png" alt="Hero01" />
-            </picture>
-            <span class="hero-img_number">02</span>
-          </div>
-          <picture>
-            <!-- <source srcSet={avifPath2x} type="image/avif" media="(min-resolution: 2dppx)" />
+          <img src="./public/img/hero01.png" alt="Hero01" class="hero-img_personaly" />
+          <span class="hero-img_number">01</span>
+        </picture>
+
+
+        <picture class="hero-img_container">
+          <!-- <source srcSet={avifPath2x} type="image/avif" media="(min-resolution: 2dppx)" />
             <source srcSet={avifPath1x} type="image/avif" />
             <source srcSet={webpPath2x} type="image/webp" media="(min-resolution: 2dppx)" />
             <source srcSet={webpPath1x} type="image/webp" />
             <source srcSet={pngPath2x} type="image/png" media="(min-resolution: 2dppx)" />
             <source srcSet={pngPath1x} type="image/png" />
             <source srcSet={jpgPath2x} type="image/jpg" media="(min-resolution: 2dppx)" /> -->
-            <img src="./public/img/hero02.png" alt="Hero02" />
-          </picture>
-          <picture>
-            <!-- <source srcSet={avifPath2x} type="image/avif" media="(min-resolution: 2dppx)" />
+          <img src="./public/img/hero02.png" alt="Hero02" class="hero-img_personaly" />
+          <span class="hero-img_number">02</span>
+        </picture>
+        <picture class="hero-img_container">
+          <!-- <source srcSet={avifPath2x} type="image/avif" media="(min-resolution: 2dppx)" />
             <source srcSet={avifPath1x} type="image/avif" />
             <source srcSet={webpPath2x} type="image/webp" media="(min-resolution: 2dppx)" />
             <source srcSet={webpPath1x} type="image/webp" />
             <source srcSet={pngPath2x} type="image/png" media="(min-resolution: 2dppx)" />
             <source srcSet={pngPath1x} type="image/png" />
             <source srcSet={jpgPath2x} type="image/jpg" media="(min-resolution: 2dppx)" /> -->
-            <img src="./public/img/hero03.png" alt="Hero03" />
-          </picture>
-        </div>
+          <img src="./public/img/hero03.png" alt="Hero03" class="hero-img_personaly" />
+          <span class="hero-img_number">03</span>
+        </picture>
       </div>
-    </section>
-  </body>
+      <div class="btn btn_hero">
+        <a href="">Заказать расчет</a>
+      </div>
+    </div>
+  </section>
+  <section class="section-news section-news_container">
+    <h2 class="news_title">Новости</h2>
+    <ul class="news_list">
+      <li class="news_item news_item__white"></li>
+      <li class="news_item news_item__gray"></li>
+      <li class="news_item news_item__black"></li>
+      <li class="news_item news_item__black"></li>
+      <li class="news_item news_item__white"></li>
+      <li class="news_item news_item__gray"></li>
+    </ul>
+  </section>
+</body>
+
 </html>
