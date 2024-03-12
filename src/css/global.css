@@ -50,6 +50,19 @@ ul {
 h1 {
   font-family: "Montserrat";
   font-weight: 800;
+  font-size: 56px;
+  line-height: 55px;
+  text-transform: uppercase;
+  color: white;
+}
+
+h4 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: var(--secondary-color);
 }
 
 a {
@@ -63,20 +76,15 @@ li {
   text-decoration: none;
 }
 
-/* :root{
-    --background-main-color:white;
-    --background-secondary-color:#F6F6F7;
-    --background-toggle-color: #E8E8EA;
-    --logo-fill-color: #141624;
-    --align-toggle-item: left;
-    --main-text-color: #181A2A;
-    --secondary-text-color: #696A75;
-    --tertiary-text-color: #3B3C4A;
-    --border-color-primary:#E8E8EA;
-    --box-shadow-primary: 0px 12px 24px -6px var(--border-color-primary);
-    --change-theme-duration: 0.5s;
+:root {
+  --main-color: #800202;
+  --secondary-color: #333333;
+  --tertiary-color: #F2F3F7;
+  --box-shadow-primary: 0px 12px 24px -6px var(--border-color-primary);
+  --change-theme-duration: 0.5s;
 }
 
+/*
 [data-theme="dark"]{
     --background-main-color:#181A2A;
     --background-secondary-color:#141624;
