@@ -44,6 +44,16 @@ nav {
   color: white;
 }
 
+.contact_container__social {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.Telegramm {
+  padding-right: 5px;
+}
+
 .btn {
   display: inline-block;
   padding: 14.25px 35px;
@@ -93,6 +103,10 @@ nav {
   display: inline;
 }
 
+.header_contacts__bottom a {
+  margin-right: 15px;
+}
+
 /* HERO */
 .hero_container {
   height: 650px;
@@ -133,6 +147,8 @@ nav {
   position: absolute;
   left: -15%;
   top: -25%;
+  font-family: "Montserrat";
+  font-weight: 800;
   font-size: 56px;
   text-transform: uppercase;
   color: white;
@@ -417,8 +433,6 @@ nav {
   line-height: 20px;
   color: black;
 }
-
-.footer-contact_container .footer_information__title {}
 
 .footer_text {
   font-family: "NotoSans";
