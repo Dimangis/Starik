@@ -79,7 +79,8 @@ a:hover {
 }
 
 a:active {
-  color: var(--secondary-color);
+  color: aqua;
+  outline: none;
 }
 
 a:focus {
