@@ -48,13 +48,23 @@ nav {
   display: inline-block;
   padding: 14.25px 35px;
   border-radius: 10px;
-  background-color: #800202;
+  background-color: var(--main-color);
+  transition: var(--change-theme-duration);
 }
 
 .btn a {
   font-weight: 600;
   font-size: 12px;
   color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.btn:hover a {
+  color: var(--main-color);
 }
 
 .header-bot_container {
@@ -80,7 +90,6 @@ nav {
   padding-top: 160px;
   color: white;
   text-transform: uppercase;
-
 }
 
 .hero-img_wrapper {
@@ -92,7 +101,6 @@ nav {
 .hero-img_container {
   display: block;
   position: relative;
-
 }
 
 .hero-img_wrapper .hero-img_container {
@@ -262,7 +270,6 @@ nav {
   display: inline-block;
   border-radius: 10px;
   background-color: var(--tertiary-color);
-
 }
 
 .about-us_information__title {
@@ -287,7 +294,7 @@ nav {
   position: relative;
   margin-top: 140px;
   height: 832px;
-  background-image: url('./public/img/Form1280x830.png');
+  background-image: url("./public/img/Form1280x830.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -324,7 +331,7 @@ nav {
 }
 
 .news_item__gray {
-  background-color: #C7C6C6;
+  background-color: #c7c6c6;
 }
 
 .news_item__black {
