@@ -70,8 +70,21 @@ a {
   font-weight: 400;
   text-decoration: none;
   color: black;
+  cursor: pointer;
+  /* transition: var(--change-theme-duration); */
 }
 
+a:hover {
+  color: var(--main-color);
+}
+
+a:active {
+  color: var(--secondary-color);
+}
+
+a:focus {
+  outline: 2px solid var(--main-color);
+}
 li {
   text-decoration: none;
 }
@@ -79,7 +92,7 @@ li {
 :root {
   --main-color: #800202;
   --secondary-color: #333333;
-  --tertiary-color: #F2F3F7;
+  --tertiary-color: #f2f3f7;
   --box-shadow-primary: 0px 12px 24px -6px var(--border-color-primary);
   --change-theme-duration: 0.5s;
 }
