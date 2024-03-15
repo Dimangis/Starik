@@ -1,0 +1,51 @@
+/* MAP */
+
+.yandex-map_container {
+  width: 100%;
+}
+
+/* footer */
+
+.footer_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 840px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  /* background-color: var(--main-color); */
+}
+
+.footer_information__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+}
+
+.footer_information__title {
+  margin-bottom: 30px;
+  font-family: "NotoSans";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: black;
+}
+
+.footer_text {
+  font-family: "NotoSans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #666666;
+}
+
+.footer_information__phone {
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.footer_information__mail {
+  color: var(--main-color);
+  margin-bottom: 10px;
+}

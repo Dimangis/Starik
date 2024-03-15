@@ -1,0 +1,26 @@
+/* MAIN CONTENT */
+.page-main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 140px;
+  height: 832px;
+  background-image: url("../../../public/img/Form1280x830.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.main-content_wrapper {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.main-content_text {
+  margin: 70px 90px;
+  font-family: "NotoSans";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 30px;
+  color: white;
+}

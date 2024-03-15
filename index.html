@@ -1,286 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="./src/css/global.css" />
+    <link rel="stylesheet" href="./public/fonts/fonts.css" />
+    <link rel="stylesheet" href="./src/components/aboutUs/aboutUs.css" />
+    <link rel="stylesheet" href="./src/components/contact/contact.css" />
+    <link rel="stylesheet" href="./src/components/hero/hero.css" />
+    <link
+      rel="stylesheet"
+      href="./src/components/mainContent/mainContent.css"
+    />
+    <link rel="stylesheet" href="./src/components/news/news.css" />
+    <link rel="stylesheet" href="./src/components/repair/repair.css" />
+    <link rel="stylesheet" href="./src/header/header.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="normalize.css" />
-  <link rel="stylesheet" href="./src/css/global.css" />
-  <link rel="stylesheet" href="./public/fonts/fonts.css" />
-  <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-</head>
-
-<body>
-
-  <header class="container headerh">
-    <div class="header-top_container">
-      <div class="logo_container">
-        <h2>Mold<strong class="logo_title">Lab</strong></h2>
-        <img src="./public/img/logo.svg" alt="Logo" />
-      </div>
-      <nav>
-        <ul class="nav_container">
-          <li><a href="" class="nav_item">О компании</a></li>
-          <li><a href="" class="nav_item">Услуги</a></li>
-          <li><a href="" class="nav_item">Оборудование</a></li>
-          <li><a href="" class="nav_item">Галерея</a></li>
-          <li><a href="" class="nav_item">Новости</a></li>
-          <li><a href="" class="nav_item">Контакты</a></li>
-        </ul>
-      </nav>
-      <div class="contact_container">
-        <div class="contact_container__social">
-          <img src="./public/img/tg.svg" alt="Telegramm" class="Telegramm" />
-          <img src="./public/img/wa.svg" alt="WhatsApp" />
-        </div>
-        <div class="btn">
-          <a href="">Заказать звонок</a>
-        </div>
-      </div>
-    </div>
-    <div class="header-bot_container">
-      <div class="header_contacts__bottom">
-        <a href="tel:+">+7 987 113-04-2</a>
-        <a href="mailto:">sales@profnn.info</a>
-        <p class="work-time_container">Пн-Пт: 8:00-18:00 (МСК)</p>
-      </div>
-    </div>
-  </header>
-
-  <script src="header.js"></script>
-  <section class="hero_container">
-    <div class="container">
-      <h1 class="hero_title"><strong>Ремонт и модификация пресс-форм</strong></h1>
-      <div class="hero-img_wrapper">
-        <picture class="hero-img_container">
-          <!-- <source srcSet={avifPath2x} type="image/avif" media="(min-resolution: 2dppx)" />
-            <source srcSet={avifPath1x} type="image/avif" />
-            <source srcSet={webpPath2x} type="image/webp" media="(min-resolution: 2dppx)" />
-            <source srcSet={webpPath1x} type="image/webp" />
-            <source srcSet={pngPath2x} type="image/png" media="(min-resolution: 2dppx)" />
-            <source srcSet={pngPath1x} type="image/png" />
-            <source srcSet={jpgPath2x} type="image/jpg" media="(min-resolution: 2dppx)" /> -->
-          <img src="./public/img/hero01.png" alt="Hero01" class="hero-img_personaly" />
-          <span class="hero-img_number">01</span>
-        </picture>
-
-
-        <picture class="hero-img_container">
-          <!-- <source srcSet={avifPath2x} type="image/avif" media="(min-resolution: 2dppx)" />
-            <source srcSet={avifPath1x} type="image/avif" />
-            <source srcSet={webpPath2x} type="image/webp" media="(min-resolution: 2dppx)" />
-            <source srcSet={webpPath1x} type="image/webp" />
-            <source srcSet={pngPath2x} type="image/png" media="(min-resolution: 2dppx)" />
-            <source srcSet={pngPath1x} type="image/png" />
-            <source srcSet={jpgPath2x} type="image/jpg" media="(min-resolution: 2dppx)" /> -->
-          <img src="./public/img/hero02.png" alt="Hero02" class="hero-img_personaly" />
-          <span class="hero-img_number">02</span>
-        </picture>
-        <picture class="hero-img_container">
-          <!-- <source srcSet={avifPath2x} type="image/avif" media="(min-resolution: 2dppx)" />
-            <source srcSet={avifPath1x} type="image/avif" />
-            <source srcSet={webpPath2x} type="image/webp" media="(min-resolution: 2dppx)" />
-            <source srcSet={webpPath1x} type="image/webp" />
-            <source srcSet={pngPath2x} type="image/png" media="(min-resolution: 2dppx)" />
-            <source srcSet={pngPath1x} type="image/png" />
-            <source srcSet={jpgPath2x} type="image/jpg" media="(min-resolution: 2dppx)" /> -->
-          <img src="./public/img/hero03.png" alt="Hero03" class="hero-img_personaly" />
-          <span class="hero-img_number">03</span>
-        </picture>
-      </div>
-      <div class="btn btn_hero">
-        <a href="">Заказать расчет</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="section-form-repair">
-    <div class="section-form-repair_container">
-      <article class="about-form_main-block">
-        <h4 class="about-form_title">пресс-форма - это неотъемлемый элемент</h2>
-          <p class="about-form_description__red">для изготовления изделий из пластмассы методом литья на
-            термопластавтоматах (ТПА)</p>
-          <p class="about-form_description__gray">Наша компания обладает обширным опытом в изготовлении и восстановлении
-            пресс-форм.</p>
-          <div class="btn">
-            <a href="">Заказать звонок</a>
-          </div>
-      </article>
-
-      <div class="about-form_secondary-block">
-        <h5 class="about-form_subtitle about-form_subtext">Ремонт пресс-формы может быть вызван различными факторами:
-        </h5>
-        <ul class="form-repair_list">
-          <li class="form-repair_item about-form_subtext">износ подвижных компонентов</li>
-          <li class="form-repair_item about-form_subtext">неправильная эксплуатация</li>
-          <li class="form-repair_item about-form_subtext">неправильная эксплуатация</li>
-        </ul>
-      </div>
-      <picture class="section-form-repair_img">
-        <!-- <source srcSet={avifPath2x} type="image/avif" media="(min-resolution: 2dppx)" />
-          <source srcSet={avifPath1x} type="image/avif" />
-          <source srcSet={webpPath2x} type="image/webp" media="(min-resolution: 2dppx)" />
-          <source srcSet={webpPath1x} type="image/webp" />
-          <source srcSet={pngPath2x} type="image/png" media="(min-resolution: 2dppx)" />
-          <source srcSet={pngPath1x} type="image/png" />
-          <source srcSet={jpgPath2x} type="image/jpg" media="(min-resolution: 2dppx)" /> -->
-        <img src="./public/img/Form625x495.png" alt="Form625x495" />
-      </picture>
-    </div>
-
-  </section>
-
-  <section class="section-about-us container">
-    <div class="title-arrow_wrapper">
-      <h4 class="about-us_title">Почему мы?</h2>
-        <div class="title-arrow"></div>
-    </div>
-    <article class="article-about-us">
-      <picture class="about-us_img">
-        <!-- <source srcSet={avifPath2x} type="image/avif" media="(min-resolution: 2dppx)" />
-          <source srcSet={avifPath1x} type="image/avif" />
-          <source srcSet={webpPath2x} type="image/webp" media="(min-resolution: 2dppx)" />
-          <source srcSet={webpPath1x} type="image/webp" />
-          <source srcSet={pngPath2x} type="image/png" media="(min-resolution: 2dppx)" />
-          <source srcSet={pngPath1x} type="image/png" />
-          <source srcSet={jpgPath2x} type="image/jpg" media="(min-resolution: 2dppx)" /> -->
-        <img src="./public/img/Form390x270.png" alt="Form390x270" />
-      </picture>
-      <img src="./public/img/SomethingShit.svg" alt="SomethingShit.svg" class="shit-img">
-      <span class="step">02</span>
-      <div class="about-us_information">
-        <h6 class="about-us_information__title">Мы можем:</h6>
-        <ul class="form-repair_list about-us_information__list">
-          <li class="form-repair_item about-form_subtext">выявить проблемы</li>
-          <li class="form-repair_item about-form_subtext">разработать необходимую конструкторскую и технологическую
-            документацию</li>
-          <li class="form-repair_item about-form_subtext">провести процедуру ремонта.</li>
-        </ul>
-      </div>
-    </article>
-  </section>
-
-  <section class="page-main-content">
-    <div class="container main-content_wrapper">
-      <p class="main-content_text">Передача отремонтированной или восстановленной пресс-формы осуществляется только
-        после внутренних испытаний на нашем оборудовании.</p>
-      <p class="main-content_text">Кроме того, мы предлагаем услуги планового и внепланового послегарантийного
-        технического обслуживания пресс-форм. <br>
-        При сотрудничестве с нашей компанией в области литья пластмассы, если клиент передает нам свою пресс-форму для
-        выполнения услуги, мы готовы обсудить особые условия ремонта и обслуживания пресс-формы.</p>
-    </div>
-  </section>
-
-  <section class="section-news section-news_container">
-    <h2 class="news_title">Новости</h2>
-
-    <ul class="news_list">
-      <li class="news_item news_item__white">
-        <h3 class="news_item__header">заголовок</h3>
-        <p class="news_item__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, architecto
-          sunt laboriosam porro fugit neque nisi! Sit voluptates a adipisci, tempora aperiam sapiente impedit ad quia,
-          voluptas provident tempore itaque!</p>
-        <svg class="news_item__arrow" width="23" height="38" viewBox="0 0 23 38" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M22.1973 17.3048L5.49193 0.599707C5.10555 0.213026 4.58977 0 4.03981 0C3.48985 0 2.97407 0.213026 2.5877 0.599707L1.35746 1.82964C0.556935 2.63108 0.556935 3.93365 1.35746 4.73387L15.3854 18.7618L1.34189 32.8053C0.955518 33.192 0.742188 33.7075 0.742188 34.2571C0.742188 34.8074 0.955518 35.3229 1.34189 35.7099L2.57213 36.9395C2.95881 37.3262 3.47429 37.5392 4.02425 37.5392C4.57421 37.5392 5.08999 37.3262 5.47636 36.9395L22.1973 20.2191C22.5846 19.8312 22.7974 19.3133 22.7961 18.7627C22.7974 18.21 22.5846 17.6924 22.1973 17.3048Z"
-            fill="var(--main-color)" />
-        </svg>
-      </li>
-      <li class="news_item news_item__gray">
-        <h3 class="news_item__header">заголовок</h3>
-        <p class="news_item__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, architecto
-          sunt laboriosam porro fugit neque nisi! Sit voluptates a adipisci, tempora aperiam sapiente impedit ad quia,
-          voluptas provident tempore itaque!</p>
-        <svg class="news_item__arrow" width="23" height="38" viewBox="0 0 23 38" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M22.1973 17.3048L5.49193 0.599707C5.10555 0.213026 4.58977 0 4.03981 0C3.48985 0 2.97407 0.213026 2.5877 0.599707L1.35746 1.82964C0.556935 2.63108 0.556935 3.93365 1.35746 4.73387L15.3854 18.7618L1.34189 32.8053C0.955518 33.192 0.742188 33.7075 0.742188 34.2571C0.742188 34.8074 0.955518 35.3229 1.34189 35.7099L2.57213 36.9395C2.95881 37.3262 3.47429 37.5392 4.02425 37.5392C4.57421 37.5392 5.08999 37.3262 5.47636 36.9395L22.1973 20.2191C22.5846 19.8312 22.7974 19.3133 22.7961 18.7627C22.7974 18.21 22.5846 17.6924 22.1973 17.3048Z"
-            fill="var(--secondary-color)" />
-        </svg>
-      </li>
-      <li class="news_item news_item__black">
-        <h3 class="news_item__header" style="color: white;">заголовок</h3>
-        <p class="news_item__description" style="color: white;">Lorem ipsum dolor sit amet consectetur, adipisicing
-          elit. Quis, architecto sunt laboriosam porro fugit neque nisi! Sit voluptates a adipisci, tempora aperiam
-          sapiente impedit ad quia, voluptas provident tempore itaque!</p>
-        <svg class="news_item__arrow" width="23" height="38" viewBox="0 0 23 38" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M22.1973 17.3048L5.49193 0.599707C5.10555 0.213026 4.58977 0 4.03981 0C3.48985 0 2.97407 0.213026 2.5877 0.599707L1.35746 1.82964C0.556935 2.63108 0.556935 3.93365 1.35746 4.73387L15.3854 18.7618L1.34189 32.8053C0.955518 33.192 0.742188 33.7075 0.742188 34.2571C0.742188 34.8074 0.955518 35.3229 1.34189 35.7099L2.57213 36.9395C2.95881 37.3262 3.47429 37.5392 4.02425 37.5392C4.57421 37.5392 5.08999 37.3262 5.47636 36.9395L22.1973 20.2191C22.5846 19.8312 22.7974 19.3133 22.7961 18.7627C22.7974 18.21 22.5846 17.6924 22.1973 17.3048Z"
-            fill="white" />
-        </svg>
-      </li>
-      <li class="news_item news_item__red">
-        <h3 class="news_item__header" style="color: white;">заголовок</h3>
-        <p class="news_item__description" style="color: white;">Lorem ipsum dolor sit amet consectetur, adipisicing
-          elit. Quis, architecto sunt laboriosam porro fugit neque nisi! Sit voluptates a adipisci, tempora aperiam
-          sapiente impedit ad quia, voluptas provident tempore itaque!</p>
-        <svg class="news_item__arrow" width="23" height="38" viewBox="0 0 23 38" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M22.1973 17.3048L5.49193 0.599707C5.10555 0.213026 4.58977 0 4.03981 0C3.48985 0 2.97407 0.213026 2.5877 0.599707L1.35746 1.82964C0.556935 2.63108 0.556935 3.93365 1.35746 4.73387L15.3854 18.7618L1.34189 32.8053C0.955518 33.192 0.742188 33.7075 0.742188 34.2571C0.742188 34.8074 0.955518 35.3229 1.34189 35.7099L2.57213 36.9395C2.95881 37.3262 3.47429 37.5392 4.02425 37.5392C4.57421 37.5392 5.08999 37.3262 5.47636 36.9395L22.1973 20.2191C22.5846 19.8312 22.7974 19.3133 22.7961 18.7627C22.7974 18.21 22.5846 17.6924 22.1973 17.3048Z"
-            fill="white" />
-        </svg>
-      </li>
-      <li class="news_item news_item__white">
-        <h3 class="news_item__header">заголовок</h3>
-        <p class="news_item__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, architecto
-          sunt laboriosam porro fugit neque nisi! Sit voluptates a adipisci, tempora aperiam sapiente impedit ad quia,
-          voluptas provident tempore itaque!</p>
-        <svg class="news_item__arrow" width="23" height="38" viewBox="0 0 23 38" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M22.1973 17.3048L5.49193 0.599707C5.10555 0.213026 4.58977 0 4.03981 0C3.48985 0 2.97407 0.213026 2.5877 0.599707L1.35746 1.82964C0.556935 2.63108 0.556935 3.93365 1.35746 4.73387L15.3854 18.7618L1.34189 32.8053C0.955518 33.192 0.742188 33.7075 0.742188 34.2571C0.742188 34.8074 0.955518 35.3229 1.34189 35.7099L2.57213 36.9395C2.95881 37.3262 3.47429 37.5392 4.02425 37.5392C4.57421 37.5392 5.08999 37.3262 5.47636 36.9395L22.1973 20.2191C22.5846 19.8312 22.7974 19.3133 22.7961 18.7627C22.7974 18.21 22.5846 17.6924 22.1973 17.3048Z"
-            fill="var(--secondary-color)" />
-        </svg>
-      </li>
-      <li class="news_item news_item__gray">
-        <h3 class="news_item__header">заголовок</h3>
-        <p class="news_item__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, architecto
-          sunt laboriosam porro fugit neque nisi! Sit voluptates a adipisci, tempora aperiam sapiente impedit ad quia,
-          voluptas provident tempore itaque!</p>
-        <svg class="news_item__arrow" width="23" height="38" viewBox="0 0 23 38" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M22.1973 17.3048L5.49193 0.599707C5.10555 0.213026 4.58977 0 4.03981 0C3.48985 0 2.97407 0.213026 2.5877 0.599707L1.35746 1.82964C0.556935 2.63108 0.556935 3.93365 1.35746 4.73387L15.3854 18.7618L1.34189 32.8053C0.955518 33.192 0.742188 33.7075 0.742188 34.2571C0.742188 34.8074 0.955518 35.3229 1.34189 35.7099L2.57213 36.9395C2.95881 37.3262 3.47429 37.5392 4.02425 37.5392C4.57421 37.5392 5.08999 37.3262 5.47636 36.9395L22.1973 20.2191C22.5846 19.8312 22.7974 19.3133 22.7961 18.7627C22.7974 18.21 22.5846 17.6924 22.1973 17.3048Z"
-            fill="white" />
-        </svg>
-      </li>
-    </ul>
-  </section>
-
-  <aside class="yandex-map_container">
-    <script type="text/javascript" charset="utf-8" async
-      src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8d77ebb3a001a79dcd29b674a51c3919d3b7c7fd5162b429fd249b70d2cdb66a&amp;width=100%&amp;height=330&amp;lang=ru_RU&amp;scroll=true"></script>
-  </aside>
-
-  <footer class="footer_container">
-    <div class="footer-contact_container footer_information__container">
-      <h6 class="footer_information__title">Общая контактная <br> информация</h6>
-      <a href="tel:+" class="footer_information__phone footer_text">+7 (000) 000-00-0</a>
-      <a href="mailto:" class="footer_information__mail footer_text">0000000@gmail.com</a>
-      <address class="footer_text">Россия, Нижегородская область,
-        Нижний Новгород, улица Тимирязева, 3к1</address>
-    </div>
-    <div class="footer-clients_container footer_information__container">
-      <h6 class="footer_information__title">Отдел по работе с клиентами</h6>
-      <a href="tel:+" class="footer_information__phone footer_text">+7 (000) 000-00-0</a>
-      <a href="mailto:" class="footer_information__mail footer_text">0000000@gmail.com</a>
-      <span class="footer_text">Starikov Egor Vadimovich</span>
-      <span class="footer_text">Marketolog, hozyain</span>
-    </div>
-    <div class="footer-tech_container footer_information__container">
-      <h6 class="footer_information__title">Технический <br>отдел</h6>
-      <a href="tel:+" class="footer_information__phone footer_text">+7 (000) 000-00-0</a>
-      <a href="mailto:" class="footer_information__mail footer_text">0000000@gmail.com</a>
-      <span class="footer_text">Starikov Egor Vadimovich</span>
-      <span class="footer_text">Marketolog, hozyain</span>
-    </div>
-  </footer>
-
-</body>
-
+  <body>
+    <script src="./src/header/header.js"></script>
+    <script src="./src/components/hero/hero.js"></script>
+    <script src="./src/components/repair/repair.js"></script>
+    <script src="./src/components/aboutUs/aboutUs.js"></script>
+    <script src="./src/components/mainContent/mainContent.js"></script>
+    <script src="./src/components/news/news.js"></script>
+    <script src="./src/components/contact/contact.js"></script>
+  </body>
 </html>
