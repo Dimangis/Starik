@@ -1,0 +1,54 @@
+.company_wrapper {
+  background-image: url("../../../public/img/Company.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "NotoSans";
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.logo_color {
+  color: var(--main-color);
+}
+
+.company_header {
+  padding-top: 120px;
+  font-size: 56px;
+  color: white;
+}
+
+.company_subtitle {
+  font-size: 36px;
+  line-height: 30.34px;
+}
+
+.company_list {
+  list-style: inherit;
+  margin: 0;
+  margin-bottom: 36px;
+}
+
+.company_description {
+  max-width: 65%;
+  padding-bottom: 35px;
+}
+
+.company_description__secondary {
+  font-weight: 500;
+}
+
+.btn_company {
+  background-color: white;
+  text-align: center;
+  width: 22%;
+  margin-bottom: 40px;
+}
+
+.btn_company a {
+  color: var(--main-color);
+  padding: 0;
+  font-size: 24px;
+
+  line-height: 33px;
+}
