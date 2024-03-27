@@ -1,0 +1,35 @@
+.howWeWorks-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0;
+  margin-top: 80px;
+}
+
+.howWeWorks-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+  background-color: var(--main-color);
+  max-width: 33%;
+  border-radius: 10px;
+  color: white;
+  font-family: "NotoSans";
+  font-weight: 500;
+  font-size: 22px;
+  box-shadow: 5.82302713394165px 5.82302713394165px 29.11513900756836px 0px
+    #00000040;
+}
+
+.howWeWorks-item_num {
+  font-size: 154px;
+}
+
+.howWeWorks-item_description {
+  text-align: center;
+  max-width: 60%;
+  line-height: 30px;
+}
