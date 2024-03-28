@@ -70,3 +70,38 @@
 #slider2 {
   background-color: black;
 }
+
+/* CALLSIDE */
+.call-side_container {
+  height: 773px;
+}
+
+.call-side_description {
+  position: absolute;
+  padding: 35px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 36px;
+  background-color: gray;
+  border-radius: 10px;
+  max-width: 45%;
+}
+
+.call-side_right {
+  position: absolute;
+  right: 0;
+  background-image: url("./public/img/картиночкаCallSideBack.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 920px;
+  height: 100%;
+}
+
+.call-side_arrow {
+  position: absolute;
+  bottom: 30%;
+}
+
+.call-side_right .btn {
+  position: absolute;
+}
