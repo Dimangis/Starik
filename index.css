@@ -1,0 +1,72 @@
+.examine_container {
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+}
+
+.examine_title {
+  margin: 45px 45px;
+}
+
+.examine_list {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+  margin: 60px 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Три столбца */
+  grid-gap: auto;
+  grid-row-gap: 60px;
+}
+
+.examine_item {
+  background-image: url("./public/img/ExamineIMG.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-radius: 26px;
+}
+
+.examine_item:hover {
+  cursor: pointer;
+  transform: scale(1.015);
+  transition: var(--change-theme-duration);
+}
+
+.examine_item__title {
+  display: block;
+  padding: 150px 70px;
+  font-family: "NotoSans";
+  font-weight: 700;
+  font-size: 38px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.slider {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  height: 80%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+.slider.show {
+  display: block; /* Показать слайдер */
+  opacity: 1; /* Установить конечную прозрачность */
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+#slider2 {
+  background-color: black;
+}

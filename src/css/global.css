@@ -114,6 +114,10 @@ li {
   text-decoration: none;
 }
 
+.left-arrow {
+  border-top: 1px solid var(--main-color);
+}
+
 :root {
   --main-color: #800202;
   --secondary-color: #333333;

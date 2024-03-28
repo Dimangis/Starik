@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./src/components/services/services.css" />
     <link rel="stylesheet" href="./src/components/howWeWorks/howWeWorks.css" />
     <link rel="stylesheet" href="./src/components/company/company.css" />
+    <link rel="stylesheet" href="./src/components/circle/circle.css" />
+    <link rel="stylesheet" href="./src/components/exp/exp.css" />
     <link
       rel="stylesheet"
       href="./src/components/mainContent/mainContent.css"
@@ -18,6 +20,7 @@
     <link rel="stylesheet" href="./src/components/news/news.css" />
     <link rel="stylesheet" href="./src/components/repair/repair.css" />
     <link rel="stylesheet" href="./src/header/header.css" />
+    <script src="./index.js" defer></script>
 
     <link rel="stylesheet" href="index.css" />
     <meta name="viewport" content="width=device-width,    initial-scale=1.0" />
@@ -30,38 +33,38 @@
     <!-- <script src="./src/components/services/services.js"></script> -->
     <!-- <script src="./src/components/howWeWorks/howWeWorks.js"></script> -->
     <!-- <script src="./src/components/company/company.js"></script> -->
-    <div class="container section-circle">
-      <svg
-        width="1076"
-        height="1052"
-        viewBox="0 0 1076 1052"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M1073.44 522.554C1073.44 809.835 835.386 1042.78 541.651 1042.78C247.916 1042.78 9.85953 809.835 9.85953 522.554C9.85953 235.272 247.916 2.32304 541.651 2.32304C835.386 2.32304 1073.44 235.272 1073.44 522.554Z"
-          stroke="#800202"
-          stroke-width="3.30305"
-        />
-        <circle cx="22.0079" cy="415.53" r="11.5607" fill="#800202" />
-        <circle cx="526.786" cy="1041.13" r="9.90916" fill="#800202" />
-        <circle cx="1064.4" cy="619.747" r="9.90916" fill="#800202" />
-        <circle
-          cx="21.6232"
-          cy="415.146"
-          r="21.1395"
-          stroke="#800202"
-          stroke-width="0.660611"
-        />
-      </svg>
-      <div>
-        <span class="">01</span>
-        <p class="">
-          Наша команда высококвалифицированных специалистов обеспечивает
-          всестороннюю поддержку – начиная от анализа требований до разработки и
-          изготовления пресс-форм.
-        </p>
-      </div>
+    <!-- <script src="./src/components/circle/circle.js"></script> -->
+    <!-- <script src="./src/components/exp/exp.js"></script> -->
+    <div class="container examine_container">
+      <h2 class="examine_title">наша экспертиза</h2>
+      <ul class="examine_list">
+        <li class="examine_item item" onclick="openSlider(1)">
+          <span class="examine_item__title">пресс-формы</span>
+        </li>
+        <li class="examine_item item" onclick="openSlider(2)">
+          <span class="examine_item__title">пресс-формы</span>
+        </li>
+        <li class="examine_item">
+          <span class="examine_item__title">пресс-формы</span>
+        </li>
+        <li class="examine_item">
+          <span class="examine_item__title">пресс-формы</span>
+        </li>
+        <li class="examine_item">
+          <span class="examine_item__title">пресс-формы</span>
+        </li>
+        <li class="examine_item">
+          <span class="examine_item__title">пресс-формы</span>
+        </li>
+        <div class="slider" id="slider1">
+          <!-- Здесь размещаем содержимое слайдера -->
+          <!-- <span class="close" onclick="closeSlider(1)">Закрыть</span> -->
+        </div>
+        <div class="slider" id="slider2">
+          <!-- Здесь размещаем содержимое слайдера -->
+          <!-- <span class="close" onclick="closeSlider(1)">Закрыть</span> -->
+        </div>
+      </ul>
     </div>
   </body>
 </html>
